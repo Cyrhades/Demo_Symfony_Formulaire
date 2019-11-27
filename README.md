@@ -43,7 +43,7 @@ Lancez votre serveur via la commande
 
 
 
-# Comment a été créée ce projet ?
+# Comment a été créé ce projet ?
 
 🎼 avec le client de Symfony :
 

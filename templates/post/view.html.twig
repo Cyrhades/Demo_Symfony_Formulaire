@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {{ post.title }}!{% endblock %}
+
+{% block body %}
+<a href="{{ path('add_post') }}">Créer un article</a>
+<div>
+
+    <h1>{{ post.title }}</h1>
+    <img src="{{ post.image }}">
+    <p>
+        {{ post.content }}
+    </p>
+</div>
+{% endblock %}
